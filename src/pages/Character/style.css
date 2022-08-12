@@ -1,0 +1,28 @@
+
+.character-page {
+    height: 100%;
+    color: #5CAD4A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 16px;
+  }
+  
+  .character-page__back{
+    background-color: #478838;
+    padding: 16px;
+    cursor: pointer;
+    border: 1px solid #000 ;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 20px;
+  }
+  
+  .character-page__back:hover{
+    box-shadow:  3px 3px #175f2f ;
+    transform: translate(-3px, -3px);
+  
+  }
+  

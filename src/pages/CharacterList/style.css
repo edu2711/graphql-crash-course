@@ -1,0 +1,50 @@
+
+.characters-page{
+    padding-top: 40px;
+  }
+  
+  .characters-page__title{
+    margin: 0 0 30px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .characters-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(332px, auto));
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding: 40px 16px;
+  }
+  
+  .characters-list__title{
+    font-size: 40px;
+  }
+  
+  .characters-list__card{
+    border: 1px solid #000 ;
+    background-color:#5CAD4A  ;
+    padding: 16px;
+    color: #fff;
+    transition: transform, box-shadow .3s;
+    cursor: pointer;
+    box-shadow: 0px 0px #c1f762 ;
+    text-align: center;
+    font-size: 24px;
+    text-decoration: none;
+    
+  }
+  .characters-list__card img{
+    filter: grayscale(1);
+    transition: filter .3s;
+  }
+  .characters-list__card:hover{
+    transform: translate(-3px, -3px);
+    box-shadow:  5px 5px #175f2f ;
+    background-color:#478838  ;
+  }
+  .characters-list__card:hover img{
+    filter: grayscale(0);
+  }
+  
